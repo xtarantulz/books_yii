@@ -1,0 +1,82 @@
+/*Стили Батракова Владимира на книги*/
+body{
+    font-size: 15px;
+}
+input,select,textarea{
+    padding: 5px 2%;
+    font-size: 15px;
+}
+
+.books .left_block{
+    background-color: lightgrey;
+    float: left;
+    padding: 15px;
+    width: 230px;
+}
+.books .right_block{
+    float: right;
+    width: 620px;
+}
+.books h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+.books h3{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.books .one_filtr{
+    margin-bottom: 30px;
+}
+.books .one_filtr label, .books .one_filtr input[type=checkbox]{
+    cursor: pointer;
+    vertical-align: middle;
+}
+.books .one_filtr select{
+    cursor: pointer;
+    width: 100%;
+}
+.books .one_filtr i{
+    display: inline-block;
+    font-style: normal;
+    vertical-align: middle;
+    width: 8%;
+}
+.books .one_filtr p{
+    margin-bottom: 10px;
+}
+.books .one_filtr input[type=text]{
+    vertical-align: middle;
+    width: 87%;
+}
+.books input[type=submit]{
+    width:100%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.books .right_block table td{
+    border:1px solid lightgrey;
+}
+.books .right_block table tr:first-child{
+    background-color: #555;
+}
+.books .right_block table tr:first-child:hover{
+    background-color: #555;
+}
+.books .right_block table tr:first-child td{
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color:white;
+}
+.books .right_block table td{
+    line-height: 20px;
+}
+.books .right_block table tr:hover{
+    background-color: lightgrey;
+    transition: 0.1s;
+}
+.books .right_block table tr:hover td{
+    border:1px solid white;
+    transition: 0.1s;
+}
